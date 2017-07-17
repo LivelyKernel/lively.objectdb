@@ -1,0 +1,17 @@
+{
+  "name": "lively.objectdb",
+  "version": "0.1.0",
+  "dependencies": {
+    "lively.storage": "*",
+    "lively.resources": "*",
+    "lively.lang": "*",
+    "lively.serializer2": "*"
+  },
+  "devDependencies": {
+    "mocha-es6": "*"
+  },
+  "scripts": {
+    "test": "mocha-es6 tests/*-test.js"
+  },
+  "main": "./index.js"
+}
