@@ -425,7 +425,7 @@ export default class ObjectDB {
       versionDB.set(`${type}/${name}`, history),
       ...(snapshotDirs && copyResources
           ? snapshotDirs.map(ea =>
-                             ea.copyTo(snapshotLocation.join(ea.name()).asDirectory())) : [])
+           ea.copyTo(snapshotLocation.join(ea.name()).asDirectory())) : [])
     ]);
 
     return spec;
